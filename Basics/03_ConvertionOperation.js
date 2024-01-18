@@ -45,7 +45,7 @@ console.log(2+2+"1")//output => 41
 
 console.log(5+3 * 5%8) 
 console.log((5+3)*(5%8)) 
-//try to write complex equations into brackets its made the readbility and preocessing more easy
+//try to write complex equations into brackets its made the readbility and processing more easy
 
 let gamecounter = 100
 gamecounter++
