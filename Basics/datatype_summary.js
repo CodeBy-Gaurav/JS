@@ -7,7 +7,7 @@
 
 
 //non-Primitive (call by reference)
-//dirent change ini address
+//dirent change in address
 
 // 3 types : Array, Objects, Functions
 
@@ -45,3 +45,33 @@ console.log(myFunction)
 
 //stydy material
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//************************************************************************
+//MEMORY ALLOCATION 
+
+// STACK(primitive)==> call by value
+//HEAP (Non-primitive)==> call by reference 
+
+//stack example
+let myscore = 100
+let yourscore = myscore // copy of value has been given
+yourscore = 200 //value will change 
+
+console.log(myscore) //==> 100
+console.log(yourscore) //==> 200 
+
+
+//HEAP Example 
+
+let obj1 = {
+    email:"gauravtiwari@gmail.com",
+    dob : "10-03-2003"
+}
+
+let obj2 = obj1;
+
+obj2.email = "gaurav@github.com"
+
+console.log(obj1)
+console.log(obj2)
