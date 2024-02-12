@@ -24,13 +24,14 @@ console.log(Math)
 console.log(Math.abs(-8))   
 console.log(Math.round(4.86))   
 
-console.log(Math.random())
+console.log(Math.random()) // Math.random gves the random btw 0 and 1
 console.log((Math.random()*10)+1)
-
 //To get a number from any range 
 
 const max = 20
 const min = 40 
+
+ //  we convert the point value into integer
 
 console.log(Math.random()* (max - min +1) + min )
 console.log(Math.round(Math.random()* (max - min +1) + min ))
