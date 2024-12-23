@@ -26,3 +26,13 @@ Object.freeze(obj2) //can not make changes in object
 obj2.age = 68
 
 console.log(obj2.age)
+
+//const women = new Object()
+
+const women = {
+    name : 'olivia',
+    age : 22,
+    maritial_status : 'commited'
+}
+
+console.log(women.name,women.maritial_status)
