@@ -49,3 +49,4 @@ const num = myarr
                 .filter((num)=>num>=20)//the value of num is output of upper map
 
 console.log(num)
+
